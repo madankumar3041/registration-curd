@@ -1,0 +1,55 @@
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    width: 100%;
+    height: 100vh;
+  }
+  .box{
+    flex-direction: column;
+    background: #ffff;
+    width: 458px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+        position: absolute;
+    top: 5%;
+    left: 33%;
+  }
+  .heading{
+    margin-bottom: 30px;
+  }
+  .input{
+    width: 75%;
+    height: 40px;
+    border-radius: 58px;
+    border: none;
+    background: #f3f1f1;
+    margin: 10px 0;
+    padding: 0 15px;
+    outline: none;
+    font-size: 0.9rem;
+  }
+  select{
+    width:82% !important;
+  }
+  
+  .btn{
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: #ff414f;
+  color: #ffff;
+  cursor: pointer;
+  outline: none;
+  }
+  .btn:hover{
+    background: #ff2735af;
+  }
+  .error-message{
+    color: red;
+  }
+  

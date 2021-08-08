@@ -1,0 +1,48 @@
+.final_page_welcome_customer_outline {
+  width: 80%;
+  margin: 110px auto;
+  background: #ffe6e6;
+}
+.final_page_welcome_customer_div {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  display: block;
+}
+
+.final_page_welcome_customer_msg,
+.final_page_welcome_customer_btn,
+.final_page_welcome_heading {
+  margin: 20px;
+}
+.final_page_welcome_heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.final_page_welcome_customer_msg {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--new_points);
+  /* opacity: .8; */
+  line-height: 5vh;
+}
+.final_page_welcome_customer_btn {
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.btn-list {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: #ff414f;
+  color: #ffff;
+  cursor: pointer;
+  outline: none;
+}
+.btn-list:hover{
+    background: #ff2735af;
+  }
